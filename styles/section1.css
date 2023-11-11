@@ -1,7 +1,4 @@
 .section1 {
-    max-width: 100%;
-    max-height: 100%;
-    display: flex;
     flex-direction: column;
     background-color: var(--bg-color);
     background-position: center;
@@ -12,26 +9,24 @@
 }
 
 .empty_space {
-    height: 2000px;
+    height: 1000px;
 }
 
 .hoodie_1 {
     position: absolute;
-    width: 937px;
-    height: 681px;
-    flex-shrink: 0;
-    left: 490px;
-    top: 38vh;
+    width: 50%;
+    left: 25vw;
+    top: 20vh;
+    flex-basis: auto;
 }
 
 .bg_fade_blue {
     position: absolute;
     top: 678px;
     left: 1398px;
-    width: 887px;
-    height: 887px;
-    flex-shrink: 0;
-    border-radius: 887px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
     background: rgba(39, 136, 225, 0.30);
     filter: blur(97px);
 }
@@ -42,8 +37,11 @@
     right: 1283px;
     width: 887px;
     height: 887px;
-    flex-shrink: 0;
-    border-radius: 887px;
+    border-radius: 50%;
     background: rgba(198, 40, 119, 0.20);
     filter: blur(97px);
+}
+
+.title_welcome {
+
 }

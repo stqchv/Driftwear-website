@@ -108,60 +108,6 @@ header {
     font-size: 16px;
 }
 
-#menu-icon {
-    font-size: 35px;
-    color: var(--text-color);
-    cursor: pointer;
-    z-index: 10002;
-    display: none;
-}
-
-@media (max-width: 1280px) {
-    header {
-        padding: 8px 5%;
-        transition: .2s;
-    }
-    .nav__links a {
-        padding: 5px 0;
-        margin: 0px 20px;
-    }
-}
-
-@media (max-width: 900px) {
-    #menu-icon {
-        display: block;
-    }
-    .nav__links {
-        position: absolute;
-        top: 100%;
-        right: 2%;
-        width: 240px;
-        height: 27vh;
-        background: var(--main-color);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 8px;
-        transition: all .50s ease;
-    }
-    .nav__links a {
-        display: block;
-        margin: 12px 0;
-        padding: 0px 25px;
-        transition: all .50s ease;
-    }
-    .nav__links a:hover {
-        color: var(--text-color);
-        transform: translateY(5px);
-    }
-    .nav__links a.active {
-        color: var(--text-color);
-    }
-    .nav__links.open {
-        right: 2%;
-    }
-}
-
 /*------- Scroll ---------*/
 
 .scroll-down header {

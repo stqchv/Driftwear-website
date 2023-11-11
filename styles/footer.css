@@ -2,7 +2,7 @@ footer {
     bottom: 0;
     right: 0;
     left: 0;
-    background: var(--background-color);
+    background: var(--header-color);
     height: auto;
     width: 100%;
     padding-top: 40px;
@@ -11,11 +11,12 @@ footer {
 }
 
 .footer_content {
-    display: flex;
+    display: fixed;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    z-index: 1000;
 }
 
 .footer_content h3 {
