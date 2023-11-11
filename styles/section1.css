@@ -1,3 +1,5 @@
+/*--- SECTION 1 ---*/
+
 .section1 {
     flex-direction: column;
     background-color: var(--bg-color);
@@ -9,23 +11,24 @@
 }
 
 .empty_space {
-    height: 1000px;
+    height: 1200px;
 }
 
 .hoodie_1 {
     position: absolute;
-    width: 50%;
-    left: 25vw;
-    top: 20vh;
+    width: 35%;
+    left: 32vw;
+    top: 14vh;
     flex-basis: auto;
+    z-index: 999;
 }
 
 .bg_fade_blue {
     position: absolute;
     top: 678px;
     left: 1398px;
-    width: 50%;
-    height: 50%;
+    width: 887px;
+    height: 887px;
     border-radius: 50%;
     background: rgba(39, 136, 225, 0.30);
     filter: blur(97px);
@@ -35,13 +38,52 @@
     position: absolute;
     top: -303px;
     right: 1283px;
-    width: 887px;
-    height: 887px;
+    width: 667px;
+    height: 667px;
     border-radius: 50%;
     background: rgba(198, 40, 119, 0.20);
     filter: blur(97px);
 }
 
 .title_welcome {
+    position: absolute;
+    top: 41.4vh;
+    left: 15vw;
+    font-size: 1.1vw;
+}
 
+.title_drift {
+    position: absolute;
+    top: 40vh;
+    left: 14.6vw;
+    font-size: 4.5em;
+}
+
+.title_wear {
+    position: absolute;
+    top: 45vh;
+    right: 14vw;
+    font-size: 4.5em;
+}
+
+/*--- SECTION 2 ---*/
+
+.hoodie_2 {
+    position: absolute;
+    width: 60%;
+    left: -20vw;
+    top: 140vh;
+    flex-basis: auto;
+    z-index: 999;
+}
+
+.bg_fade_blue_2 {
+    position: absolute;
+    top: 2300px;
+    right: 1200px;
+    width: 887px;
+    height: 887px;
+    border-radius: 50%;
+    background: rgba(39, 136, 225, 0.30);
+    filter: blur(97px);
 }

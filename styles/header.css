@@ -30,7 +30,7 @@ header {
 .upheader a {
     color: var(--white);
     font-weight: 500;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ header {
 .nav__links a {
     padding: 5px 0;
     margin: 0px 30px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     transition: all .4s ease;
 }
 
