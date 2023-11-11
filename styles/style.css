@@ -1,0 +1,81 @@
+/* -------- FONTS ----------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;500;700&family=Roboto:wght@300;400&display=swap');
+
+/* --------  ----------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color);
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #0e0e0e;
+    --bg-second-color: rgb(17, 17, 17);
+    --text-color: #f0f0f0;
+    --text-hover: rgb(133, 133, 133);
+    --main-color: rgb(174, 44, 230);
+    --second-color: rgb(84, 48, 156);
+    --white: rgb(252, 252, 252);
+    --border-color: rgb(55, 55, 55);
+    --help-border: rgb(255, 0, 0);
+    --black: rgb(12, 12, 12);
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+/*------ Buttons ------*/
+.button-33 {
+    width: 8%;
+    background-color: rgba(163, 8, 21, .2);
+    border-radius: 50px;
+    box-shadow: rgba(184, 10, 24, 0.2) 0 -25px 18px -14px inset,rgba(153, 8, 20, 0.15) 0 1px 2px, rgba(155, 10, 20, 0.15) 0 2px 4px, rgba(149, 9, 21, 0.15) 0 4px 8px, rgba(142, 9, 20, 0.15) 0 8px 16px,rgba(162, 10, 22, 0.15) 0 16px 32px;
+    color: var(--text-color);
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 22%;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.474);
+    border-radius: 0px;
+    color: var(--text-color);
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
