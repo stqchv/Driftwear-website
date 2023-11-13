@@ -1,26 +1,49 @@
 /*--- SECTION 1 ---*/
 
+.section {
+    display: flex;
+    justify-content: center;
+}
+
 .section1 {
-    flex-direction: column;
-    background-color: var(--bg-color);
-    background-position: center;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    transition: all .50s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 0 130px 0;
+    width: 80%;
+    /* border: 2px solid var(--border-color); */
 }
 
-.empty_space {
-    height: 1200px;
+.section1_left {
+    /* border: 2px solid var(--border-color); */
+    z-index: 1;
 }
 
-.hoodie_1 {
-    position: absolute;
-    width: 35%;
-    left: 32vw;
-    top: 14vh;
-    flex-basis: auto;
-    z-index: 999;
+.section1_right {
+    /* border: 2px solid var(--border-color); */
+}
+
+.section1 img {
+    width: 620px;
+}
+
+.section1_buttons {
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid var(--border-color); */
+}
+
+.shop-now {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    border: 2px solid var(--main-color);
+}
+
+.find-more {
+    border: 2px solid var(--main-color);
+    background-color: var(--background-color);
 }
 
 .bg_fade_blue {
@@ -30,7 +53,8 @@
     width: 887px;
     height: 887px;
     border-radius: 50%;
-    background: rgba(39, 136, 225, 0.30);
+    background: var(--second-color);
+    opacity: 0.4;
     filter: blur(97px);
 }
 
@@ -41,34 +65,14 @@
     width: 667px;
     height: 667px;
     border-radius: 50%;
-    background: rgba(198, 40, 119, 0.20);
+    background: var(--main-color);
+    opacity: 0.4;
     filter: blur(97px);
-}
-
-.title_welcome {
-    position: absolute;
-    top: 41.4vh;
-    left: 15vw;
-    font-size: 1.1vw;
-}
-
-.title_drift {
-    position: absolute;
-    top: 40vh;
-    left: 14.6vw;
-    font-size: 4.5em;
-}
-
-.title_wear {
-    position: absolute;
-    top: 45vh;
-    right: 14vw;
-    font-size: 4.5em;
 }
 
 /*--- SECTION 2 ---*/
 
-.hoodie_2 {
+.section2 img {
     position: absolute;
     width: 60%;
     left: -20vw;
@@ -77,7 +81,7 @@
     z-index: 999;
 }
 
-.bg_fade_blue_2 {
+/* .bg_fade_blue_2 {
     position: absolute;
     top: 2300px;
     right: 1200px;
@@ -86,7 +90,7 @@
     border-radius: 50%;
     background: rgba(39, 136, 225, 0.30);
     filter: blur(97px);
-}
+} */
 
 .reveal {
     transform: translateY(200px);
