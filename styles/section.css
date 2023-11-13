@@ -25,6 +25,7 @@
 
 .section1_right {
     /* border: 2px solid var(--border-color); */
+    z-index: 1;
 }
 
 .section1 img {
