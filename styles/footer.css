@@ -49,19 +49,19 @@ footer {
 }
 
 .socials a i{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     transition: all .50s ease;
 }
 
 .socials a:hover i {
     transform: translateY(-5px);
-    color: var(--main-color);
+    color: var(--second-color);
 }
 
 .footer_bottom {
     background: rgb(34, 34, 34);
     width: 100%;
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
