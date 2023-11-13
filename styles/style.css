@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;500;700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 /* --------  ----------*/
 
@@ -27,7 +28,7 @@ html {
     --main-color: rgb(198, 40, 119);
     --second-color: rgb(39, 136, 225);
     --white: rgb(252, 252, 252);
-    --border-color: rgb(55, 55, 55);
+    --border-color: rgba(20, 218, 175, 0.873);
     --help-border: rgb(255, 0, 0);
     --header-color: rgb(4, 5, 6);
 }
@@ -50,9 +51,9 @@ h2 {
 }
 
 h3 {
+    font-family: 'Roboto';
     font-size: 1em;
     font-weight: 100;
-    letter-spacing: -0.05rem;
 }
 
 /*------ Buttons ------*/
