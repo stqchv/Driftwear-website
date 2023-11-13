@@ -49,6 +49,12 @@ h2 {
     line-height: 0.8;
 }
 
+h3 {
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: -0.05rem;
+}
+
 /*------ Buttons ------*/
 button {
     border-radius: 26px;

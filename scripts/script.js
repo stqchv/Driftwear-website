@@ -49,3 +49,16 @@ function scrollToSection(sectionId) {
     var section = document.getElementById(sectionId);
     section.scrollIntoView({ behavior: "smooth" });
 }
+
+/* ---------- Parallax effect ---------- */
+
+const layers = document.querySelectorAll('.layer');
+
+window.addEventListener('scroll', (e) => {
+  layers.forEach(layer => {
+    const depth = layer.getAttribute('data-depth');
+    const movement = -(window.scrollY * depth);
+    const translate3d = `translate3d(0, ${movement}px, 0)`;
+    layer.style.transform = translate3d;
+  });
+});
