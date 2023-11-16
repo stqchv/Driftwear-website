@@ -104,7 +104,7 @@
 }
 
 .section2 img {
-    width: 700px;
+    width: 800px;
     margin: 75px;
     /* border: 2px solid var(--border-color); */
 }
@@ -133,14 +133,14 @@
 }
 
 .reveal {
-    transform: translateY(50px);
+    transform: translateX(50px);
     opacity: 0;
     transition: all 2s ease;
     filter: blur(1px);
 }
 
 .reveal.active{
-    transform: translateY(0px);
+    transform: translateX(0px);
     opacity: 1;
     filter: blur(0);
 }
@@ -149,7 +149,15 @@
 
 
 
-
+.background_hoodie {
+    position: absolute;
+    top: 678px;
+    left: 500px;
+    width: 887px;
+    height: 887px;
+    opacity: 0.4;
+    filter: blur(97px);
+}
 
 
 .empty_space {
